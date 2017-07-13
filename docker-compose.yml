@@ -1,0 +1,9 @@
+version: '2'
+services:
+  groestlcoin:
+    tty: true
+    build: .
+    #image: docker.io/vtorhonen/ez-docker-groestlcoin:latest
+    image: foo2
+    volumes:
+     - ./data:/root/.groestlcoin
