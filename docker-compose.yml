@@ -3,7 +3,6 @@ services:
   groestlcoin:
     tty: true
     build: .
-    #image: docker.io/vtorhonen/ez-docker-groestlcoin:latest
-    image: foo2
+    image: docker.io/vtorhonen/ez-docker-groestlcoin:latest
     volumes:
      - ./data:/root/.groestlcoin
